@@ -3,12 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Eight responsive, table-based HTML email examples covering marketing, security, onboarding, verification, ecommerce, newsletters, events, and support.">
-  <title>HTML Email Development Portfolio</title>
+  <meta name="description" content="An email development and lifecycle portfolio featuring eight responsive HTML email samples and five marketing automation journey concepts.">
+  <title>Email Development &amp; Lifecycle Portfolio | Axell Gaceta</title>
   <link rel="icon" type="image/png" href="logo.png">
   <link rel="shortcut icon" type="image/png" href="logo.png">
   <link rel="apple-touch-icon" href="logo.png">
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
   <!-- Email-only progressive enhancements; critical email styles are inline. -->
   <style>
     @media only screen and (max-width: 620px) {
@@ -26,18 +27,21 @@
   <section class="hero section-wrap" aria-labelledby="page-title">
     <div class="hero-copy">
       <p class="hero-identity"><img src="logo.png" alt="Axell Gaceta logo" width="40" height="40"><span>Axell Gaceta <span aria-hidden="true">/</span> Email Development</span></p>
-      <h1 id="page-title">HTML Email<br><span>Development Portfolio</span></h1>
-      <p class="hero-kicker">Responsive <span>•</span> Cross-Client Compatible <span>•</span> Table-Based Layouts <span>•</span> Inline CSS</p>
-      <p class="hero-description">I create responsive, cross-client compatible HTML emails using table-based layouts and inline CSS. These examples demonstrate marketing campaigns, transactional communications, IT notifications, subscription workflows, and account verification experiences.</p>
-      <div class="skill-badges" aria-label="Core skills"><span>HTML Email</span><span>Inline CSS</span><span>Table Layouts</span><span>Responsive Design</span><span>Mobile Optimization</span><span>Email Compatibility</span></div>
-      <a class="hero-link" href="#showcase">Explore the email showcase <span aria-hidden="true">&#8595;</span></a>
+      <h1 id="page-title">Email Development<br><span>&amp; Lifecycle Portfolio</span></h1>
+      <p class="hero-kicker">HTML Emails <span>•</span> Lifecycle Journeys <span>•</span> Marketing Automation</p>
+      <p class="hero-description"><span>I design responsive HTML emails and lifecycle journeys that connect email development with practical marketing automation.</span> <span class="hero-description-extra">These examples demonstrate table-based email development, transactional communication, customer lifecycle strategy, behavioral branching, segmentation, and automation logic.</span></p>
+      <div class="skill-badges" aria-label="Core skills"><span>HTML Email</span><span>Inline CSS</span><span>Lifecycle Journeys</span><span>Responsive Design</span><span>Marketing Automation</span><span>Email Compatibility</span></div>
+      <div class="hero-work-links">
+        <a class="hero-work-link hero-work-link--primary" href="#email-showcase"><span>Explore HTML Emails</span><span class="hero-work-arrow" aria-hidden="true">&#8595;</span></a>
+        <a class="hero-work-link hero-work-link--secondary" href="#email-journeys"><span class="hero-work-label-desktop">Explore Email Journeys</span><span class="hero-work-label-mobile">Email Journeys</span><span class="hero-work-arrow" aria-hidden="true">&#8595;</span></a>
+      </div>
     </div>
     <div class="hero-visual" aria-hidden="true"><div class="visual-window"><div class="visual-top"><span></span><span></span><span></span><b>email.html</b></div><div class="visual-content"><div class="visual-tag">&lt;table role="presentation"&gt;</div><div class="visual-email"><div class="visual-logo"></div><div class="visual-line long"></div><div class="visual-line medium"></div><div class="visual-line short"></div><div class="visual-button"></div></div><div class="visual-tag end">&lt;/table&gt;</div></div></div><div class="visual-note">600px canvas <span>↗</span> Mobile aware</div></div>
   </section>
   <!-- ========================= EMAIL SHOWCASE ========================= -->
-  <section class="showcase-section" id="showcase" aria-labelledby="showcase-title">
+  <section class="showcase-section" id="email-showcase" aria-labelledby="showcase-title">
     <div class="section-wrap showcase-inner">
-    <div class="section-heading showcase-heading"><div><p class="eyebrow">Selected work / 08 messages</p><h2 id="showcase-title">Email Showcase</h2></div><p>Eight production-style HTML email examples built for real inbox environments.<br><span>Open a message to explore the design, implementation, and compatibility approach.</span></p></div>
+    <div class="section-heading showcase-heading"><div><p class="eyebrow">01 / HTML email development &nbsp;·&nbsp; 08 messages</p><h2 id="showcase-title">Email Showcase</h2></div><p>Eight production-style HTML emails demonstrating responsive, table-based development for marketing, transactional, lifecycle, and operational communication.<br><span>Open a message to explore the design, implementation, and compatibility approach.</span></p></div>
     <div class="mail-app" aria-label="Interactive email showcase">
       <header class="mail-topbar"><div class="mail-brand"><span class="mail-brand-icon" aria-hidden="true">✉</span>Mail<span class="brand-period">.</span></div><div class="mail-search" aria-label="Decorative search field"><span aria-hidden="true">⌕</span> Search mail <kbd>/</kbd></div><div class="mail-top-actions" aria-hidden="true"><span>?</span><span>⚙</span><span class="profile-avatar">P</span></div></header>
       <div class="mail-layout">
@@ -244,17 +248,171 @@
     <p class="showcase-note">Select any message to open its preview and implementation details. All names, addresses, and destinations are examples.</p>
     </div>
   </section>
+  <!-- ========================= EMAIL JOURNEYS ========================= -->
+  <section class="journeys-section" id="email-journeys" aria-labelledby="journeys-title">
+    <div class="section-wrap">
+      <div class="section-heading journeys-heading"><div><p class="eyebrow">02 / Lifecycle &amp; automation</p><h2 id="journeys-title">Email Journeys</h2></div><p>Lifecycle journey concepts demonstrating how email, timing, customer behavior, segmentation, and automation logic work together.</p></div>
+      <p class="journey-disclosure"><strong>Concept Projects</strong> &mdash; These journeys demonstrate lifecycle strategy and automation logic using realistic business scenarios.</p>
+      <div class="journey-tabs" role="tablist" aria-label="Email journey examples">
+        <button class="journey-tab is-active" type="button" role="tab" id="journey-tab-01" aria-selected="true" aria-controls="journey-panel-01" tabindex="0"><span>SaaS</span><span>Onboarding</span></button>
+        <button class="journey-tab" type="button" role="tab" id="journey-tab-02" aria-selected="false" aria-controls="journey-panel-02" tabindex="-1"><span>Lead</span><span>Nurture</span></button>
+        <button class="journey-tab" type="button" role="tab" id="journey-tab-03" aria-selected="false" aria-controls="journey-panel-03" tabindex="-1"><span>Event</span><span>Lifecycle</span></button>
+        <button class="journey-tab" type="button" role="tab" id="journey-tab-04" aria-selected="false" aria-controls="journey-panel-04" tabindex="-1"><span>Re-engagement</span><span>&amp; Win-Back</span></button>
+        <button class="journey-tab" type="button" role="tab" id="journey-tab-05" aria-selected="false" aria-controls="journey-panel-05" tabindex="-1"><span>Post-Purchase</span><span>Retention</span></button>
+      </div>
+      <div class="journey-viewer">
+        <section class="journey-panel is-active" role="tabpanel" id="journey-panel-01" aria-labelledby="journey-tab-01" tabindex="0">
+          <header class="journey-panel-header">
+            <p class="journey-panel-index">01 / SaaS Onboarding</p>
+            <h3>Welcome &amp; Onboarding Journey</h3>
+            <p>Guide new users from account creation to product activation and early feature adoption.</p>
+          </header>
+          <dl class="journey-meta"><div><dt>Trigger</dt><dd>Account Created</dd></div><div><dt>Goal</dt><dd>Product Activation</dd></div></dl>
+          <div class="journey-diagram">
+            <div class="flow-legend" aria-label="Flowchart legend">
+              <span><i class="legend-start" aria-hidden="true"></i>Trigger</span>
+              <span><i class="legend-email" aria-hidden="true"></i>Email / Process</span>
+              <span><i class="legend-wait" aria-hidden="true"></i>Wait</span>
+              <span><i class="legend-decision" aria-hidden="true"></i>Decision</span>
+              <span><i class="legend-goal" aria-hidden="true"></i>Goal</span>
+            </div>
+            <div class="flowchart" role="group" aria-label="Journey 01 workflow"><div class="flow-node flow-node--start">Account Created</div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--email">Welcome Email</div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--wait">Wait 1 Day</div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--email">Getting Started Email</div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--decision">Activated?</div><div class="flow-branches flow-branches--merge"><div class="flow-choice"><span class="flow-answer">YES</span><div class="flow-node flow-node--email">Feature Tips</div></div><div class="flow-choice"><span class="flow-answer">NO</span><div class="flow-node flow-node--email">Activation Reminder</div></div></div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--goal">Product Activated</div></div>
+          </div>
+          <p class="journey-stats">5 Emails • 2 Decisions • 3 Delays</p>
+          <details class="journey-details"><summary>Explore Journey <span aria-hidden="true">&#8595;</span></summary>
+            <div class="journey-expanded">
+<section><h4>Journey Strategy</h4><dl class="journey-strategy"><div><dt>Goal</dt><dd>Increase new-user activation and help subscribers reach their first meaningful product action.</dd></div><div><dt>Audience</dt><dd>New SaaS subscribers</dd></div><div><dt>Entry</dt><dd>Account created successfully</dd></div><div><dt>Exit</dt><dd>Product activated • Unsubscribed • Account closed</dd></div></dl></section>
+<section><h4>Automation Logic</h4><ol class="journey-logic"><li>Account creation triggers a welcome email, followed by a one-day delay and a getting-started message.</li><li>If the user has activated, send feature tips; otherwise send an activation reminder.</li><li>After two days, check engagement. Engaged users see an upgrade opportunity; others receive feature education.</li><li>Exit when the product is activated, the account closes, or the subscriber opts out.</li></ol></section>
+<section><h4>Data &amp; Personalization</h4><div class="journey-tags"><span>First Name</span><span>Plan</span><span>Signup Date</span><span>Activation Status</span><span>Last Activity</span><span>Feature Usage</span></div></section>
+<section><h4>Automation Concepts</h4><div class="journey-tags"><span>Trigger</span><span>Delay</span><span>Conditional Branching</span><span>Behavior Tracking</span><span>Personalization</span><span>Segmentation</span><span>Exit Conditions</span></div></section>
+<section class="journey-related"><h4>Related HTML Email</h4><p><strong>FlowPilot</strong><br/>Welcome to FlowPilot! Your Pro Plan Is Active</p><a href="#flow-email">View FlowPilot HTML email ↑</a></section>
+</div>
+          </details>
+        </section>
+        <section class="journey-panel" role="tabpanel" id="journey-panel-02" aria-labelledby="journey-tab-02" tabindex="0">
+          <header class="journey-panel-header">
+            <p class="journey-panel-index">02 / Lead Nurture</p>
+            <h3>Lead Nurture &amp; Conversion Journey</h3>
+            <p>Turn an inbound marketing lead into an engaged prospect and guide qualified leads toward booking a demo.</p>
+          </header>
+          <dl class="journey-meta"><div><dt>Trigger</dt><dd>Form Submitted</dd></div><div><dt>Goal</dt><dd>Demo Booked</dd></div></dl>
+          <div class="journey-diagram">
+            <div class="flow-legend" aria-label="Flowchart legend">
+              <span><i class="legend-start" aria-hidden="true"></i>Trigger</span>
+              <span><i class="legend-email" aria-hidden="true"></i>Email / Process</span>
+              <span><i class="legend-wait" aria-hidden="true"></i>Wait</span>
+              <span><i class="legend-decision" aria-hidden="true"></i>Decision</span>
+              <span><i class="legend-goal" aria-hidden="true"></i>Goal</span>
+            </div>
+            <div class="flowchart" role="group" aria-label="Journey 02 workflow"><div class="flow-node flow-node--start">Form Submitted</div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--email">Resource Email</div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--wait">Wait 2 Days</div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--email">Educational Email</div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--decision">Clicked CTA?</div><div class="flow-branches flow-branches--merge"><div class="flow-choice"><span class="flow-answer">YES</span><div class="flow-node flow-node--email">Case Study</div></div><div class="flow-choice"><span class="flow-answer">NO</span><div class="flow-node flow-node--email">Follow-Up Email</div></div></div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--email">Book Demo Email</div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--goal">Demo Booked</div></div>
+          </div>
+          <p class="journey-stats">5 Emails • 2 Decisions • 3 Delays</p>
+          <details class="journey-details"><summary>Explore Journey <span aria-hidden="true">&#8595;</span></summary>
+            <div class="journey-expanded">
+<section><h4>Journey Strategy</h4><dl class="journey-strategy"><div><dt>Goal</dt><dd>Convert qualified inbound leads into booked sales conversations.</dd></div><div><dt>Audience</dt><dd>Inbound leads who submitted a marketing form or downloaded a resource.</dd></div><div><dt>Entry</dt><dd>Valid form submission</dd></div><div><dt>Exit</dt><dd>Demo booked • Lead disqualified • Unsubscribed • Sales handoff</dd></div></dl></section>
+<section><h4>Automation Logic</h4><ol class="journey-logic"><li>A valid form submission triggers a welcome message with the requested resource.</li><li>After two days, send education matched to the lead's interest.</li><li>A CTA click routes the lead to a case study; no click routes them to a follow-up message.</li><li>After another delay, send a demo invitation. A booking exits to sales; otherwise send final nurture and stop.</li></ol></section>
+<section><h4>Data &amp; Personalization</h4><div class="journey-tags"><span>First Name</span><span>Company</span><span>Lead Source</span><span>Downloaded Resource</span><span>Industry</span><span>CTA Engagement</span><span>Lead Status</span></div></section>
+<section><h4>Automation Concepts</h4><div class="journey-tags"><span>Lead Segmentation</span><span>Behavior Tracking</span><span>Conditional Branching</span><span>Lead Qualification</span><span>Delays</span><span>Personalization</span><span>Sales Handoff</span><span>Exit Conditions</span></div></section>
+</div>
+          </details>
+        </section>
+        <section class="journey-panel" role="tabpanel" id="journey-panel-03" aria-labelledby="journey-tab-03" tabindex="0">
+          <header class="journey-panel-header">
+            <p class="journey-panel-index">03 / Event Lifecycle</p>
+            <h3>Event Registration Journey</h3>
+            <p>Move registrants from signup to attendance and continue engagement after the event.</p>
+          </header>
+          <dl class="journey-meta"><div><dt>Trigger</dt><dd>Event Registration</dd></div><div><dt>Goal</dt><dd>Attendance + Follow-Up</dd></div></dl>
+          <div class="journey-diagram">
+            <div class="flow-legend" aria-label="Flowchart legend">
+              <span><i class="legend-start" aria-hidden="true"></i>Trigger</span>
+              <span><i class="legend-email" aria-hidden="true"></i>Email / Process</span>
+              <span><i class="legend-wait" aria-hidden="true"></i>Wait</span>
+              <span><i class="legend-decision" aria-hidden="true"></i>Decision</span>
+              <span><i class="legend-goal" aria-hidden="true"></i>Goal</span>
+            </div>
+            <div class="flowchart" role="group" aria-label="Journey 03 workflow"><div class="flow-node flow-node--start">Event Registered</div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--email">Confirmation Email</div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--wait">Wait Until 3 Days Before</div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--email">Event Reminder</div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--wait">Wait Until 1 Hour Before</div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--email">Starting Soon Email</div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--decision">Attended?</div><div class="flow-branches flow-branches--merge"><div class="flow-choice"><span class="flow-answer">YES</span><div class="flow-node flow-node--email">Thank You Email</div></div><div class="flow-choice"><span class="flow-answer">NO</span><div class="flow-node flow-node--email">Recording Reminder</div></div></div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--goal">Follow-Up</div></div>
+          </div>
+          <p class="journey-stats">6 Emails • 1 Decision • Timed Delays</p>
+          <details class="journey-details"><summary>Explore Journey <span aria-hidden="true">&#8595;</span></summary>
+            <div class="journey-expanded">
+<section><h4>Journey Strategy</h4><dl class="journey-strategy"><div><dt>Goal</dt><dd>Increase event attendance and convert event engagement into a meaningful follow-up action.</dd></div><div><dt>Audience</dt><dd>Registered event attendees</dd></div><div><dt>Entry</dt><dd>Successful event registration</dd></div><div><dt>Exit</dt><dd>Follow-up conversion • Unsubscribed • Event lifecycle completed</dd></div></dl></section>
+<section><h4>Automation Logic</h4><ol class="journey-logic"><li>Registration triggers confirmation with the event details.</li><li>Date-based waits send a reminder three days before and a starting-soon message one hour before the event.</li><li>After the event, attendance status routes attendees to thanks and resources; absentees receive a recording reminder.</li><li>A follow-up CTA invites the next relevant action, then the event journey ends.</li></ol></section>
+<section><h4>Data &amp; Personalization</h4><div class="journey-tags"><span>First Name</span><span>Event Name</span><span>Registration Date</span><span>Event Date</span><span>Attendance Status</span><span>Session Interest</span><span>CTA Engagement</span></div></section>
+<section><h4>Automation Concepts</h4><div class="journey-tags"><span>Event Trigger</span><span>Date-Based Delays</span><span>Attendance Tracking</span><span>Conditional Branching</span><span>Post-Event Follow-Up</span><span>Personalization</span><span>Segmentation</span></div></section>
+<section class="journey-related"><h4>Related HTML Email</h4><p><strong>Automate Summit</strong><br/>You're Invited: AI Automation Summit 2026</p><a href="#summit-email">View Automate Summit HTML email ↑</a></section>
+</div>
+          </details>
+        </section>
+        <section class="journey-panel" role="tabpanel" id="journey-panel-04" aria-labelledby="journey-tab-04" tabindex="0">
+          <header class="journey-panel-header">
+            <p class="journey-panel-index">04 / Re-Engagement</p>
+            <h3>Re-engagement &amp; Win-Back Journey</h3>
+            <p>Identify inactive subscribers, recover meaningful engagement, and suppress contacts who remain inactive.</p>
+          </header>
+          <dl class="journey-meta"><div><dt>Trigger</dt><dd>Inactive for 30 Days</dd></div><div><dt>Goal</dt><dd>Re-engagement / Responsible Suppression</dd></div></dl>
+          <div class="journey-diagram">
+            <div class="flow-legend" aria-label="Flowchart legend">
+              <span><i class="legend-start" aria-hidden="true"></i>Trigger</span>
+              <span><i class="legend-email" aria-hidden="true"></i>Email / Process</span>
+              <span><i class="legend-wait" aria-hidden="true"></i>Wait</span>
+              <span><i class="legend-decision" aria-hidden="true"></i>Decision</span>
+              <span><i class="legend-goal" aria-hidden="true"></i>Goal</span>
+            </div>
+            <div class="flowchart" role="group" aria-label="Journey 04 workflow"><div class="flow-node flow-node--start">Inactive 30 Days</div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--decision">Still Subscribed?</div><div class="flow-branches"><div class="flow-choice"><span class="flow-answer">YES</span><div class="flow-node flow-node--email">Win-Back Email</div></div><div class="flow-choice"><span class="flow-answer">NO</span><div class="flow-node flow-node--goal">Exit</div></div></div><p class="flow-continuation">Subscribed path continues</p><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--wait">Wait 3 Days</div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--decision">Engaged?</div><div class="flow-branches"><div class="flow-choice"><span class="flow-answer">YES</span><div class="flow-node flow-node--goal">Active</div></div><div class="flow-choice"><span class="flow-answer">NO</span><div class="flow-node flow-node--email">Final Reminder</div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--goal">Sunset / Suppress</div></div></div></div>
+          </div>
+          <p class="journey-stats">4 Emails • 3 Decisions • 3 Delays</p>
+          <details class="journey-details"><summary>Explore Journey <span aria-hidden="true">&#8595;</span></summary>
+            <div class="journey-expanded">
+<section><h4>Journey Strategy</h4><dl class="journey-strategy"><div><dt>Goal</dt><dd>Recover genuinely interested subscribers while protecting engagement quality and avoiding unnecessary email fatigue.</dd></div><div><dt>Audience</dt><dd>Previously active subscribers with no meaningful engagement for 30 days.</dd></div><div><dt>Entry</dt><dd>No tracked engagement for 30 days</dd></div><div><dt>Exit</dt><dd>Re-engaged • Unsubscribed • Suppressed</dd></div></dl></section>
+<section><h4>Automation Logic</h4><ol class="journey-logic"><li>After 30 inactive days, verify subscription status. Unsubscribed contacts exit immediately.</li><li>Subscribed contacts receive a we-miss-you email, then wait three days.</li><li>Engagement returns a subscriber to the main journey; no engagement prompts a relevant feature or incentive message.</li><li>After another three days, recheck engagement. Reactivated contacts return to the active path; inactive contacts are sunset and suppressed.</li></ol></section>
+<section><h4>Data &amp; Personalization</h4><div class="journey-tags"><span>First Name</span><span>Last Engagement Date</span><span>Last Product Activity</span><span>Subscription Status</span><span>Content Interests</span><span>Previous Purchases</span></div></section>
+<section><h4>Automation Concepts</h4><div class="journey-tags"><span>Inactivity Trigger</span><span>Engagement Scoring</span><span>Conditional Branching</span><span>Suppression Logic</span><span>Delays</span><span>Segmentation</span><span>Deliverability Awareness</span><span>Exit Conditions</span></div></section>
+</div>
+          </details>
+        </section>
+        <section class="journey-panel" role="tabpanel" id="journey-panel-05" aria-labelledby="journey-tab-05" tabindex="0">
+          <header class="journey-panel-header">
+            <p class="journey-panel-index">05 / Post-Purchase</p>
+            <h3>Post-Purchase &amp; Retention Journey</h3>
+            <p>Continue the customer relationship after purchase through service communication, feedback, and relevant follow-up.</p>
+          </header>
+          <dl class="journey-meta"><div><dt>Trigger</dt><dd>Purchase Completed</dd></div><div><dt>Goal</dt><dd>Retention + Repeat Purchase</dd></div></dl>
+          <div class="journey-diagram">
+            <div class="flow-legend" aria-label="Flowchart legend">
+              <span><i class="legend-start" aria-hidden="true"></i>Trigger</span>
+              <span><i class="legend-email" aria-hidden="true"></i>Email / Process</span>
+              <span><i class="legend-wait" aria-hidden="true"></i>Wait</span>
+              <span><i class="legend-decision" aria-hidden="true"></i>Decision</span>
+              <span><i class="legend-goal" aria-hidden="true"></i>Goal</span>
+            </div>
+            <div class="flowchart" role="group" aria-label="Journey 05 workflow"><div class="flow-node flow-node--start">Purchase Completed</div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--email">Payment Confirmation</div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--event">Order Delivered</div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--wait">Wait 2 Days</div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--email">Feedback Email</div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--decision">Review Submitted?</div><div class="flow-branches flow-branches--merge"><div class="flow-choice"><span class="flow-answer">YES</span><div class="flow-node flow-node--email">Thank You</div></div><div class="flow-choice"><span class="flow-answer">NO</span><div class="flow-node flow-node--email">Review Reminder</div></div></div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--email">Product Recommendation</div><div class="flow-arrow" aria-hidden="true"></div><div class="flow-node flow-node--goal">Repeat Purchase</div></div>
+          </div>
+          <p class="journey-stats">5 Emails • 2 Decisions • 3 Delays</p>
+          <details class="journey-details"><summary>Explore Journey <span aria-hidden="true">&#8595;</span></summary>
+            <div class="journey-expanded">
+<section><h4>Journey Strategy</h4><dl class="journey-strategy"><div><dt>Goal</dt><dd>Increase customer satisfaction, collect feedback, and encourage relevant repeat purchases.</dd></div><div><dt>Audience</dt><dd>Recent customers</dd></div><div><dt>Entry</dt><dd>Successful purchase</dd></div><div><dt>Exit</dt><dd>Repeat purchase • Unsubscribed • Journey completed</dd></div></dl></section>
+<section><h4>Automation Logic</h4><ol class="journey-logic"><li>A completed purchase triggers the transactional payment confirmation.</li><li>After delivery and a two-day wait, invite feedback on the order.</li><li>A submitted review receives thanks; otherwise send a reminder once.</li><li>After a further wait, recommend relevant products. Repeat buyers enter a loyalty path; others continue a measured nurture sequence.</li></ol></section>
+<section><h4>Data &amp; Personalization</h4><div class="journey-tags"><span>First Name</span><span>Order Number</span><span>Products Purchased</span><span>Order Date</span><span>Delivery Status</span><span>Review Status</span><span>Purchase History</span></div></section>
+<section><h4>Automation Concepts</h4><div class="journey-tags"><span>Purchase Trigger</span><span>Transactional Email</span><span>Date-Based Delay</span><span>Behavior Tracking</span><span>Conditional Branching</span><span>Product Segmentation</span><span>Personalization</span><span>Retention Logic</span></div></section>
+<section class="journey-related"><h4>Related HTML Email</h4><p><strong>Acme Store</strong><br/>Payment Confirmed — Order #10482</p><a href="#acme-email">View Acme Store HTML email ↑</a></section>
+</div>
+          </details>
+        </section>
+      </div>
+    </div>
+  </section>
   <!-- ========================= DEVELOPMENT APPROACH ========================= -->
-  <section class="capabilities-section section-wrap" aria-labelledby="capabilities-title">
+  <section class="capabilities-section section-wrap" id="development-approach" aria-labelledby="capabilities-title">
     <div class="section-heading capabilities-heading">
-      <div><p class="eyebrow">The development approach</p><h2 id="capabilities-title">Built for the Inbox</h2></div>
-      <p>Reliable HTML email development focused on compatibility, responsiveness, and maintainable structure.</p>
+      <div><p class="eyebrow">03 / Development approach</p><h2 id="capabilities-title">Built for the Inbox</h2></div>
+      <p>Reliable email development and lifecycle strategy focused on compatibility, responsiveness, clear automation logic, and maintainable structure.</p>
     </div>
     <div class="capabilities-grid">
-      <article><span class="capability-index">01 /</span><h3>Structure</h3><ul><li>Table-based layouts</li><li>Nested presentation tables</li><li>Semantic content hierarchy</li><li>600px email architecture</li></ul></article>
-      <article><span class="capability-index">02 /</span><h3>Styling</h3><ul><li>Inline CSS</li><li>Email-safe typography</li><li>Mobile media queries</li><li>Email-safe spacing</li></ul></article>
-      <article><span class="capability-index">03 /</span><h3>Compatibility</h3><ul><li>Gmail-conscious development</li><li>Outlook-conscious structure</li><li>Apple Mail compatibility targets</li><li>Yahoo Mail compatibility targets</li></ul></article>
-      <article><span class="capability-index">04 /</span><h3>Optimization</h3><ul><li>Responsive layouts</li><li>Mobile-friendly CTAs</li><li>Preheader text</li><li>Fallback links</li><li>Scannable content</li></ul></article>
+      <article><span class="capability-index">01 /</span><h3>Structure</h3><ul class="capability-desktop"><li>Table-based layouts</li><li>Nested presentation tables</li><li>Semantic content hierarchy</li><li>600px email architecture</li></ul><ul class="capability-mobile"><li>Table layouts</li><li>Nested tables</li><li>600px architecture</li></ul></article>
+      <article><span class="capability-index">02 /</span><h3>Styling</h3><ul class="capability-desktop"><li>Inline CSS</li><li>Email-safe typography</li><li>Mobile media queries</li><li>Email-safe spacing</li></ul><ul class="capability-mobile"><li>Inline CSS</li><li>Email-safe typography</li><li>Media queries</li></ul></article>
+      <article><span class="capability-index">03 /</span><h3>Compatibility</h3><ul class="capability-desktop"><li>Gmail-conscious development</li><li>Outlook-conscious structure</li><li>Apple Mail compatibility targets</li><li>Yahoo Mail compatibility targets</li></ul><ul class="capability-mobile"><li>Gmail</li><li>Outlook</li><li>Apple Mail / Yahoo</li></ul></article>
+      <article><span class="capability-index">04 /</span><h3>Optimization</h3><ul class="capability-desktop"><li>Responsive layouts</li><li>Mobile-friendly CTAs</li><li>Preheader text</li><li>Fallback links</li><li>Scannable content</li></ul><ul class="capability-mobile"><li>Responsive layouts</li><li>Mobile CTAs</li><li>Preheader text</li></ul></article>
     </div>
   </section>
 </main>
